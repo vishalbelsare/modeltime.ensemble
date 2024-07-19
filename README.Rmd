@@ -17,14 +17,15 @@ knitr::opts_chunk$set(
 )
 ```
 
-# modeltime.ensemble <img src='man/figures/logo-modeltime-ensemble.png' align="right" height="138.5" />
+# modeltime.ensemble <a href="https://business-science.github.io/modeltime.ensemble/"><img src="man/figures/logo.png" align="right" height="138" alt="modeltime.ensemble website" /></a>
 
 <!-- badges: start -->
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/modeltime.ensemble)](https://cran.r-project.org/package=modeltime.ensemble)
 ![](http://cranlogs.r-pkg.org/badges/modeltime.ensemble?color=brightgreen)
 ![](http://cranlogs.r-pkg.org/badges/grand-total/modeltime.ensemble?color=brightgreen)
-[![R-CMD-check](https://github.com/business-science/modeltime.ensemble/workflows/R-CMD-check/badge.svg)](https://github.com/business-science/modeltime.ensemble/actions)
+[![R-CMD-check](https://github.com/business-science/modeltime.ensemble/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/business-science/modeltime.ensemble/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/business-science/modeltime.ensemble/branch/master/graph/badge.svg)](https://app.codecov.io/gh/business-science/modeltime.ensemble?branch=master)
+
 <!-- badges: end -->
 
 
@@ -64,7 +65,7 @@ Load the following libraries.
 library(tidymodels)
 library(modeltime)
 library(modeltime.ensemble)
-library(tidyverse)
+library(dplyr)
 library(timetk)
 ```
 

@@ -1,7 +1,7 @@
 Package: modeltime.ensemble
 Type: Package
 Title: Ensemble Algorithms for Time Series Forecasting with Modeltime
-Version: 1.0.3
+Version: 1.0.4
 Authors@R: c(
     person("Matt", "Dancho", email = "mdancho@business-science.io", role = c("aut", "cre")),
     person("Business Science", role = "cph")
@@ -9,9 +9,8 @@ Authors@R: c(
 Description: 
     A 'modeltime' extension that implements time series ensemble forecasting methods including model averaging, 
     weighted averaging, and stacking. These techniques are popular methods 
-    to improve forecast accuracy and stability. Refer to papers such as 
-    "Machine-Learning Models for Sales Time Series Forecasting" Pavlyshenko, B.M. (2019) <doi:10.3390>.
-URL: https://github.com/business-science/modeltime.ensemble
+    to improve forecast accuracy and stability. 
+URL: https://business-science.github.io/modeltime.ensemble/, https://github.com/business-science/modeltime.ensemble
 BugReports: https://github.com/business-science/modeltime.ensemble/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -22,16 +21,14 @@ Depends:
 Imports: 
     tune (>= 0.1.2),
     rsample,
-    yardstick, 
+    yardstick,
     workflows (>= 0.2.1),
-    parsnip (>= 0.1.6),
     recipes (>= 0.1.15),
     timetk (>= 2.5.0),
     tibble,
     dplyr (>= 1.0.0),
     tidyr,
     purrr,
-    glue,
     stringr,
     rlang (>= 0.1.2),
     cli,
@@ -41,25 +38,18 @@ Imports:
     parallel, 
     doParallel,
     foreach,
-Suggests: 
+    glmnet
+Suggests:
     gt,
-    crayon,
     dials,
-    glmnet,
-    progressr,
     utils,
-    roxygen2,
     earth,
     testthat,
     tidymodels,
     xgboost,
-    tidyverse,
     lubridate,
     knitr,
-    rmarkdown,
-    covr, 
-    qpdf,
-    remotes
-RoxygenNote: 7.2.3
+    rmarkdown
+RoxygenNote: 7.3.1
 VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
